@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body
+{
+    font-family: 'Inter',sans-serif;
+    
+}
+section{
+    padding: 40px;
+}
+
+
+.container{
+    display: flex;
+    padding-bottom: 18px;
+}
+
+nav{
+    width: 100%;
+    height: 55px;
+    background: #9285FB;
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.loaction-img{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.rightSide-info{
+    margin: 20px;    
+}
+
+.location-name ,
+.journey-date{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+
+.location-name > img{
+    margin-right: 5px;
+    width: 7px;
+    height: 8px;
+}
+
+
+.location-name > p{
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.17em; 
+}
+
+
+.location-name > a{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+text-decoration-line: underline;
+color: #918E9B;
+}
+
+
+.location-title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #282A57;
+}
+
+.journey-date{
+    margin-top: 14px;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #282A57;
+
+}
+
+
+.description{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #282A57;
+}
+
+
+.hr-line{
+    width: 90%;
+    height: 0px;
+    border: 0.5px solid #CCC7FD;
+    background-color: #CCC7FD;
+}
